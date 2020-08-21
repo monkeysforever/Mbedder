@@ -3,7 +3,7 @@
 </div>
 
 ---
-Mbedder is a language framework for adding contextual embeddings of pretrained language models to deep learning models.Mbedder is powered by <b>PyTorch</b> and <b>HuggingFace</b> and requires as less as 1 line of code to add embeddings and work similar to how the Embedding Layer works in PyTorch.
+Mbedder is a language framework for adding contextual embeddings of pretrained language models to deep learning models.Mbedder is powered by <b>PyTorch</b> and <b>HuggingFace</b> and requires as less as 1 line of code to add embeddings and works similar to how the Embedding Layer works in PyTorch.
 
 The Architectures supported are :
 
