@@ -21,6 +21,19 @@ Mbedder is a language framework for adding contextual embeddings of pretrained l
 </p></details>
 The pretrained models for the mentioned architecures can be found <a href='https://huggingface.co/transformers/pretrained_models.html'>here.</a>
 
+### Features
+- Addition of embeddings with 1 line of code
+- Embeddings can output Sentence as well as Token level embeddings
+- Task specific combination strategies can be applied to hidden states and token embeddings
+- Custom pre-trained hugging face transformer models can be used with Mbedder.
+
+# Requirements and Installation
+* [PyTorch](http://pytorch.org/) version >= 1.6.0
+* Python version >= 3.6
+* Transformer >= 3.0.2
+
+# Getting Started
+
 A basic example of using a Mbedder Bert embedding is shown below:
 ```
 import torch
@@ -38,8 +51,13 @@ class BertClassifier(torch.nn.Module):
         return logits
 
 ```
+More advanced examples can be found in the examples folder.
 
-More advanced features include, outputting Sentence as well as Token level embeddings, the ability to apply task specific combination strategies to hidden states and token embeddings, adding custom pre-trained models with above mentioned architectures.
+# License
+
+Mbedder is MIT-licensed.
+
+
 
 
 
