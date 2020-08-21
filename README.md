@@ -3,6 +3,7 @@
  <br />
  <br />
 <a href="https://github.com/monkeysforever/Mbedder/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+ <img alt="Build Pass" src="https://travis-ci.com/monkeysforever/Mbedder.svg?branch=master" />
 </div>
 
 ---
