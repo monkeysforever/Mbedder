@@ -32,6 +32,11 @@ The pretrained models for the mentioned architecures can be found <a href='https
 * Python version >= 3.6
 * Transformer >= 3.0.2
 
+Mbedder can be using Pip
+```
+pin install mbedder
+```
+
 # Getting Started
 
 A basic example of using a Mbedder Bert embedding is shown below:
