@@ -151,7 +151,7 @@ def token_strategy(token_embeddings):
 
 
 def sentence_strategy(hidden_states):
-    return torch.concat((hidden_states[-1], hidden_states[-2]), dim=2)
+    return torch.cat((hidden_states[-1], hidden_states[-2]), dim=2)
 
 
 class TestTokenStrategy(unittest.TestCase):
