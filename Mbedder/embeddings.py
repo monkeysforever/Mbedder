@@ -71,6 +71,7 @@ class Embedding(torch.nn.Module):
         return s.format(**self.__dict__)
 
     def get_embeddings(self, hidden_states, output_token_embeddings):
+        token_vectors = None
         if output_token_embeddings:
             token_embeddings = torch.stack(hidden_states, dim=0)
             token_embeddings = token_embeddings.permute(1, 2, 0, 3)

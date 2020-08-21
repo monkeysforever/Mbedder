@@ -39,7 +39,7 @@ if __name__ == '__main__':
     setup(
         name=DISTNAME,
         install_requires=REQUIREMENTS,
-        packages=find_packages('Mbedder', exclude=EXCLUDES),
+        packages=find_packages(exclude=EXCLUDES),
         python_requires=">=3.6",
         version='0.0.1',
         description=DESCRIPTION,
@@ -49,10 +49,10 @@ if __name__ == '__main__':
         author_email=AUTHOR_EMAIL,
         url='https://github.com/monkeysforever/Mbedder',
         classifiers=[
-            "Programming Language :: Python :: 3.6",
-            "License :: MIT License",
+            "Programming Language :: Python :: 3.6",            
+            "License :: OSI Approved :: MIT License",
             "Topic :: Scientific/Engineering :: Artificial Intelligence",
-            "Operating System :: Linux",
+            "Operating System :: Unix",
             'Intended Audience :: Science/Research',
 
         ]
