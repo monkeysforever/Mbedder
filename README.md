@@ -1,6 +1,6 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/13309365/90921051-0885f480-e3af-11ea-9fbc-3e45e2bcc4b7.jpg" width="20%"/>
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/monkeysforever/Mbedder/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
 </div>
 
 ---
