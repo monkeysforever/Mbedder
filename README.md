@@ -55,7 +55,7 @@ class BertClassifier(torch.nn.Module):
     
     def forward(self, input_ids, attention_mask):
         x = self.embedding(input_ids, attention_mask, output_token_embeddings=False)
-        logits = self.fc(x)
+        logits = self.fc(x[0])
         return logits
 
 ```

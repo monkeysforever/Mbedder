@@ -41,7 +41,7 @@ if __name__ == '__main__':
         install_requires=REQUIREMENTS,
         packages=find_packages(exclude=EXCLUDES),
         python_requires=">=3.6",
-        version='0.0.1',
+        version='0.0.4',
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         long_description_content_type=LONG_DESCRIPTION_CONTENT_TYPE,
