@@ -5,22 +5,19 @@
 ---
 Mbedder is a language framework for adding contextual embeddings of pretrained language models to deep learning models.Mbedder is powered by <b>PyTorch</b> and <b>HuggingFace</b> and requires as less as 1 line of code to add embeddings and works similar to how the Embedding Layer works in PyTorch.
 
-The Architectures supported are :
-
-| Architecture |
-|:------------:|
-|Bert|
-|XLNet|
-|Albert|
-|TransfoXL|
-|DistilBert|
-|Roberta|
-|XLM|
-|XLMRoberta|
-|GPT|
-|GPT2|
-|Flaubert|
-
+<details><summary>List of supported architectures</summary><p>
+    - **Bert**
+    - **XLNet**
+    - **Albert**
+    - **TransfoXL**
+    - **DistilBert**
+    - **Roberta**
+    - **XLM**
+    - **XLMRoberta**
+    - **GPT**
+    - **GPT2**
+    - **Flaubert**
+</p></details>
 The pretrained models for the mentioned architecures can be found <a href='https://huggingface.co/transformers/pretrained_models.html'>here.</a>
 
 A basic example of using a Mbedder Bert embedding is shown below:
