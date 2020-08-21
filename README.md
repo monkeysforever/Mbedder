@@ -37,7 +37,7 @@ The pretrained models for the mentioned architecures can be found <a href='https
 
 Mbedder can be using Pip as follows
 ```
-pip install mbedder
+pip install Mbedder==0.0.1
 ```
 
 # Getting Started
