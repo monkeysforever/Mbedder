@@ -32,9 +32,9 @@ The pretrained models for the mentioned architecures can be found <a href='https
 * Python version >= 3.6
 * Transformer >= 3.0.2
 
-Mbedder can be using Pip
+Mbedder can be using Pip as follows
 ```
-pin install mbedder
+pip install mbedder
 ```
 
 # Getting Started
